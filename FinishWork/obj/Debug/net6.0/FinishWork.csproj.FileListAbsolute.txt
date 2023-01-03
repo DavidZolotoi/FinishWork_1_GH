@@ -1,0 +1,15 @@
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\bin\Debug\net6.0\FinishWork.exe
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\bin\Debug\net6.0\FinishWork.deps.json
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\bin\Debug\net6.0\FinishWork.runtimeconfig.json
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\bin\Debug\net6.0\FinishWork.dll
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\bin\Debug\net6.0\FinishWork.pdb
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\obj\Debug\net6.0\FinishWork.csproj.AssemblyReference.cache
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\obj\Debug\net6.0\FinishWork.GeneratedMSBuildEditorConfig.editorconfig
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\obj\Debug\net6.0\FinishWork.AssemblyInfoInputs.cache
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\obj\Debug\net6.0\FinishWork.AssemblyInfo.cs
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\obj\Debug\net6.0\FinishWork.csproj.CoreCompileInputs.cache
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\obj\Debug\net6.0\FinishWork.dll
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\obj\Debug\net6.0\refint\FinishWork.dll
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\obj\Debug\net6.0\FinishWork.pdb
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\obj\Debug\net6.0\FinishWork.genruntimeconfig.cache
+E:\Csharp\GB\q01m12_Finish_GH\FinishWork\obj\Debug\net6.0\ref\FinishWork.dll
