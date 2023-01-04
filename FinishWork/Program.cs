@@ -8,6 +8,34 @@
 */
 string[] array = GetRandomStringArray(new Random().Next(5, 11), 7);
 PrintArray("Сгенерированный массив:", array);
+string[] editArray = GetEditArray(array, 3);    // можно было и без этого массива обойтись и засунуть один метод в другой PrintArray("Обработанный массив:", GetEditArray(array, 3));
+PrintArray("Обработанный массив:", editArray);
+
+// Метод формирования нового массива, удовлетворяющего условию
+string[] GetEditArray(string[] array, int wordLengthMax = 3)
+{
+    string[] editArray = new string[GetCountIf(array, wordLengthMax)];
+    int j = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (j >= editArray.Length) break;   // на случай если вдруг исходный массив большой, чтоб не терять лишнего времени и ресурсов
+        if (array[i].Length <= wordLengthMax)
+        {
+            editArray[j] = array[i];
+            j += 1;
+        }
+    }
+    return editArray;
+}
+
+// Метод подсчета количества элементов, удовлетворяющих устовию
+int GetCountIf(string[] array, int wordLengthMax = 3)
+{
+    int count = 0;
+    foreach (var item in array)
+        if (item.Length <= wordLengthMax) count += 1;
+    return count;
+}
 
 // Метод генерации массива - автоматизировал, чтоб не тратить время на ввод.
 string[] GetRandomStringArray(int count = 5, int wordLengthMax = 7)
